@@ -28,40 +28,6 @@ export default defineConfig({
         },
       },
       { find: '@src', replacement: path.resolve(__dirname, 'src') },
-      { find: '@router', replacement: path.resolve(__dirname, 'src/router') },
-      {
-        find: '@components',
-        replacement: path.resolve(__dirname, 'src/components'),
-      },
-      { find: '@views', replacement: path.resolve(__dirname, 'src/views') },
-      { find: '@pc', replacement: path.resolve(__dirname, 'src/views/pc') },
-      {
-        find: '@mobile',
-        replacement: path.resolve(__dirname, 'src/views/mobile'),
-      },
-      { find: '@img', replacement: path.resolve(__dirname, 'src/assets/img') },
-      { find: '@assets', replacement: path.resolve(__dirname, 'src/assets') },
-      // { find: '@store', replacement: path.resolve(__dirname, 'src/redux') },
-      // {
-      //   find: '@utils',
-      //   replacement: path.resolve(__dirname, 'src/utils/Utils.js'),
-      // },
-      // {
-      //   find: '@yup',
-      //   replacement: path.resolve(__dirname, 'src/utils/customYup.js'),
-      // },
-      {
-        find: '@svg',
-        replacement: path.resolve(__dirname, 'src/assets/svg/index.js'),
-      },
-      // {
-      //   find: '@core',
-      //   replacement: path.resolve(__dirname, 'src/components/core'),
-      // },
-      // {
-      //   find: '@modules',
-      //   replacement: path.resolve(__dirname, 'src/components/modules'),
-      // },
     ],
   },
   esbuild: {
