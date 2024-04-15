@@ -1,8 +1,14 @@
-# React + Vite
+react
+react-router-dom
+vite
+eslint
+prettier
+axios
+zustand : global state
+react-quert : api hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+components > common : 공통 컴포넌트 작성
+components > test : 테스트 컴포넌트 작성
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+store : store 관리
+store > slice : slice 관리

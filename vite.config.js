@@ -54,9 +54,9 @@ export default defineConfig({
       ],
     },
   },
-  css: {
-    preprocessorOptions: {
-      scss: { additionalData: `@import "./src/@core/scss/helper.scss";` },
-    },
-  },
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: { additionalData: `@import "./src/@core/scss/helper.scss";` },
+  //   },
+  // },
 });
