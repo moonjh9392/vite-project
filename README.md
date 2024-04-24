@@ -24,16 +24,17 @@
 ## 사용된 라이브러리 목차
 
 1. [TanStackQuery](#tanstackquery)
-2. [StoryBook](#storybook) …
+2. [StoryBook](#storybook)
+...
 
-## TanStackQuery
+
 
 <details>
   <summary>TanStackQuery</summary>
   설명
 </details>
 
-## StoryBook 
+
 
 <details>
   <summary>StoryBook</summary>
