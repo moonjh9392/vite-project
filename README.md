@@ -22,7 +22,7 @@
 4. 브라우저에서 `http://localhost:3000`로 이동하여 앱을 확인합니다.
 
 ## 디렉토리 구조
-
+```
 src
  ┣ api
  ┃ ┣ axiosRequest.js
@@ -136,7 +136,7 @@ src
  ┣ App.jsx
  ┣ i18n.js
  ┗ main.jsx
-
+```
 
 
 ## 사용된 라이브러리 목차
