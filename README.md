@@ -17,9 +17,33 @@
     ```
 3. 서버를 실행합니다.
     ```bash
-    npm start
+    npm run dev
     ```
 4. 브라우저에서 `http://localhost:3000`로 이동하여 앱을 확인합니다.
+
+## 디렉토리 구조
+
+my-project/
+├── src/
+│ ├── components/
+│ │ ├── Button/
+│ │ │ ├── Button.js
+│ │ │ └── Button.css
+│ │ └── Input/
+│ │ ├── Input.js
+│ │ └── Input.css
+│ ├── pages/
+│ │ ├── Home/
+│ │ │ ├── Home.js
+│ │ │ └── Home.css
+│ │ └── About/
+│ │ ├── About.js
+│ │ └── About.css
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── package.json
+└── README.md
 
 ## 사용된 라이브러리 목차
 
